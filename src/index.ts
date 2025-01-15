@@ -15,10 +15,10 @@ const myBio: PersonalData = {
 };
 
 function displayBio(bio: PersonalData){
-    console.log(`Name: $(bio.name)`);
-    console.log(`Age: $(bio.age)`);
-    console.log(`Email: $(bio.email)`);
-    console.log(`Address: $(bio.address)`);
+    console.log(`Name: ${bio.name}`);
+    console.log(`Age: ${bio.age}`);
+    console.log(`Email: ${bio.email}`);
+    console.log(`Address: ${bio.address}`);
     console.log("Hobbies : ");
     for (const hobby of bio.hobbies) {
         console.log(`- ${hobby}`);
